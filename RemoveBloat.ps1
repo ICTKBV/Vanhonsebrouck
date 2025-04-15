@@ -1984,14 +1984,14 @@ if ($IsOOBEComplete -eq 0) {
     $blacklistapps = @(
 
     )
-
+	}
 
     foreach ($blacklist in $blacklistapps) {
 
         UninstallAppFull -appName $blacklist
 
     }
-}
+
 write-output "Completed"
 
 Stop-Transcript
