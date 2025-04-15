@@ -1991,6 +1991,7 @@ if ($IsOOBEComplete -eq 0) {
         UninstallAppFull -appName $blacklist
 
     }
+}
 write-output "Completed"
 
 Stop-Transcript
