@@ -19,7 +19,7 @@ Invoke-WebRequest `
 
 
 ##Populate between the speechmarks any apps you want to whitelist, comma-separated
-$arguments = ' -customwhitelist ""'
+$arguments = ' -customwhitelist "Microsoft.OneDriveSync"'
 
 
 invoke-expression -Command "$templateFilePath $arguments"
